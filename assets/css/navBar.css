@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+@charset "utf-8";
+/* CSS Document */
+
+#nav {
+      background:url(img/menuBar.html);
+	  margin:8px 0 0 0px ;
+	  width:100%;
+	   }
+#nav_wrapper {
+width:1300px;
+margin: 0px 0px 0px 98px;
+text-align:left;
+}
+
+#nav ul {
+      list-style-type:none;
+	  padding:0;
+	  margin:0;
+	  	  }
+
+#nav ul li{
+      display:inline-block;
+	  	  }
+
+#nav ul li img{
+vertical-align:middle;
+padding-left:10px;
+       }
+
+#nav ul li:hover {
+      background-color:#993333;
+	  color:#FFFFFF;
+	   	  }
+
+#nav ul li a,visited {
+      color:#23235C;
+	  font-size:13px;
+	  display:block;
+	  padding:4px 15px 10px 15px;
+	  text-decoration:none;
+	  }
+#nav ul li a:hover {
+      color:#FFF;
+	  text-decoration:none;
+	  	  }
+#nav ul li:hover ul {
+      display:block;
+	  	  }
+#nav ul ul {
+      display:none;
+	  position:absolute;
+	  background-color:#FFFFFF;
+	  border-top:0;
+	  left:151px;
+	  min-width:200px;
+	  opacity:1;
+	  width:76.2%;
+	  z-index:1000;
+	  padding:0px 0px 5px 0px;
+	  border:0px 1px 1px 1px solid #FF0000;
+	  box-shadow:0px 9px 9px rgba(0,0,0,9);
+	  
+	  	  }
+		  
+#nav ul ul li{
+        list-style:none;
+	  
+	  	  }
+#nav ul ul li a,visited{
+      color:#ffff;
+	  	  }
+
+#nav ul ul li a:hover{
+      color:#FFFFFF;
+	  background:#000000;
+	  border:none;
+	  	  }
+  .onstate {
+         display:block;
+		 background:#993333;
+		 color:#FFFFFF;
+		  } 
+
+
+
